@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.BG{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(BG.webp);
+    background-size: cover;
+    background-position: center;
+    z-index: -3;
+    position: absolute;
+}
+.logo{
+    width: 120px;
+    cursor: default;
+    border-radius: 50%;
+    z-index: 0;
+    position: relative;
+    left: 10px;
+    bottom: -10px;
+}
+
+.snowflake {
+    position: fixed;
+    background-color: #CCC;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+  .title{
+    margin: auto;
+    padding: auto;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: solid;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    border-style: none;
+    text-shadow: 10px 10px 5px black;
+    text-transform: uppercase;
+  }
+  .subtitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: solid;
+    text-align: center;
+    width: 100%;
+    position: relative;
+
+    border-style: none;
+    text-shadow: 10px 10px 5px black;
+    text-transform: uppercase;
+  }
